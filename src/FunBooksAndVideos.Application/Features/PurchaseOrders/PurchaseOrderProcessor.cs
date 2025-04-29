@@ -49,11 +49,14 @@ public class PurchaseOrderProcessor : IPurchaseOrderProcessor
         decimal totalPrice = 0;
         foreach (var line in order.ItemLines)
         {
-            if (line.Item is Product product) // Only Products have price in this model
+            if (line.Item is Product product) 
             {
                 totalPrice += product.Price * line.Quantity;
             }
-            // Memberships might have a cost, but it's not modeled as Price here. Adjust if needed.
+            if (line.Item is Membership membership) 
+            {
+                totalPrice += membership.Price * line.Quantity;
+            }
         }
         order.TotalPrice = totalPrice;
         _logger.LogInformation("Calculated Total Price {TotalPrice} for PO {PurchaseOrderId}", order.TotalPrice, order.Id);
