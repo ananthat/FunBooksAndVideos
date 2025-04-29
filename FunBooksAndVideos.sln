@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5DDDE229-A0FC-4748-AC8A-5420CBA11F4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunBooksAndVideos.Core", "src\FunBooksAndVideos.Core\FunBooksAndVideos.Core.csproj", "{340DAB4D-D2AF-4875-9A42-942B0F872EBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunBooksAndVideos.Application", "src\FunBooksAndVideos.Application\FunBooksAndVideos.Application.csproj", "{90FE6B65-063F-47E6-9F3A-134D0A319AED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunBooksAndVideos.Api", "src\FunBooksAndVideos.Api\FunBooksAndVideos.Api.csproj", "{F447674E-D971-4C7A-8A7D-8197487AB816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunBooksAndVideos.Infrastructure", "src\FunBooksAndVideos.Infrastructure\FunBooksAndVideos.Infrastructure.csproj", "{20E85FE8-DD8B-4FA7-94AD-9BAF894F81EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7EDDF4DF-21E1-47F2-B516-D7B9017F3EC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunBooksAndVideos.Tests", "tests\FunBooksAndVideos.Tests\FunBooksAndVideos.Tests.csproj", "{8D826500-EF99-449C-A3BC-BD0E1E22085B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{340DAB4D-D2AF-4875-9A42-942B0F872EBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340DAB4D-D2AF-4875-9A42-942B0F872EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340DAB4D-D2AF-4875-9A42-942B0F872EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340DAB4D-D2AF-4875-9A42-942B0F872EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90FE6B65-063F-47E6-9F3A-134D0A319AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90FE6B65-063F-47E6-9F3A-134D0A319AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90FE6B65-063F-47E6-9F3A-134D0A319AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90FE6B65-063F-47E6-9F3A-134D0A319AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F447674E-D971-4C7A-8A7D-8197487AB816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F447674E-D971-4C7A-8A7D-8197487AB816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F447674E-D971-4C7A-8A7D-8197487AB816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F447674E-D971-4C7A-8A7D-8197487AB816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E85FE8-DD8B-4FA7-94AD-9BAF894F81EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E85FE8-DD8B-4FA7-94AD-9BAF894F81EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E85FE8-DD8B-4FA7-94AD-9BAF894F81EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E85FE8-DD8B-4FA7-94AD-9BAF894F81EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D826500-EF99-449C-A3BC-BD0E1E22085B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D826500-EF99-449C-A3BC-BD0E1E22085B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D826500-EF99-449C-A3BC-BD0E1E22085B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D826500-EF99-449C-A3BC-BD0E1E22085B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{340DAB4D-D2AF-4875-9A42-942B0F872EBE} = {5DDDE229-A0FC-4748-AC8A-5420CBA11F4F}
+		{90FE6B65-063F-47E6-9F3A-134D0A319AED} = {5DDDE229-A0FC-4748-AC8A-5420CBA11F4F}
+		{F447674E-D971-4C7A-8A7D-8197487AB816} = {5DDDE229-A0FC-4748-AC8A-5420CBA11F4F}
+		{20E85FE8-DD8B-4FA7-94AD-9BAF894F81EB} = {5DDDE229-A0FC-4748-AC8A-5420CBA11F4F}
+		{8D826500-EF99-449C-A3BC-BD0E1E22085B} = {7EDDF4DF-21E1-47F2-B516-D7B9017F3EC1}
+	EndGlobalSection
+EndGlobal
